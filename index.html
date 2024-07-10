@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My photo site</title>
+    <meta name="description" content="sample text sample text sample text sample text">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/sanitize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon2/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon2/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon2/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon2/site.webmanifest">
+    <link rel="mask-icon" href="./assets/images/favicon2/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="myblog">
+    <div class="mobileMenu">
+        <section>
+            <aside class="mobMenuTop"></aside>
+        </section>
+    </div>
+    
+    <!-- hero -->
+    <div class="hero">
+        <strong>Welcome</strong>
+        <video autoplay loop muted preload>
+            <source src="./assets/videos/MOV_0030_1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- header -->
+    <header class="header">
+        <h1 class="header-logo">
+            <a href="#">
+                <img src="./assets/images/R's Photo-logo.png" width="125px" height="120px" alt="">
+                <title>R's Photo</title>
+            </a>
+        </h1>
+        <nav class="header-nav">
+            <ul class="header-navlist">
+                <li class="header-navitem">
+                    <a class="spring-item" href="Spring.html" target="_blank" rel="noopener noreferrer">Spring</a>
+                </li>
+                <li class="header-navitem">
+                    <a class="summer-item" href="Summer.html" target="_blank" rel="noopener noreferrer">Summer</a>
+                </li>
+                <li class="header-navitem">
+                    <a class="autumn-item" href="Autumn.html" target="_blank" rel="noopener noreferrer">Autumn</a>
+                </li>
+                <li class="header-navitem">
+                    <a class="winter-item" href="Winter.html" target="_blank" rel="noopener noreferrer">Wintter</a>
+                </li>
+                <li class="header-navitem">
+                    <a class="other-item" href="Other.html" target="_blank" rel="noopener noreferrer">Other</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- about -->
+    <section class="section">
+        <h1 class="section-headline">About this site</h1>
+        <figure class="about">
+            <img class="about-image" src="./assets/images/about-photo.png" width="600" height="400" alt="">
+            <figcaption class="about-caption">
+                <h2 class="about-headline">What kind of site?</h2>
+                <p class="about-description">
+                    This site is a personal collection of photos <br/>
+                    I take on my daily outings. <br/>  
+                    <br>
+                    For example, the photo on the left is shown. <br/>
+                </p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <!-- blog -->
+    <section class="section section-second">
+        <h1 class="section-headline">New contents</h1>
+
+        <ul class="grid grid-col-3">
+            <li class="grid-item">
+                <article class="card">
+                    <a href="" class="card-link"> <!--写真リンク追加-->
+                        <span class="card-label">New</span>
+                        <!--写真アドレス貼り付け-->
+                        <img class="card-image" src="https://placehold.jp/30/eee/ffffff/200x100.png?text=Coming soon" width="200" height="100" alt="thumbnail">
+                        <div class="card-info">
+                            <time id="time-text1" class="card-time" datetime="2023-08-09">Time</time>
+                            <h1 id="card-text1" class="card-headline">Title</h1>
+                            <p id="card-descText1" class="card-description">Description</p>
+                        </div>
+                        <dl class="avator">
+                            <dt class="avator-name">sample</dt>
+                            <dd class="avator-image">
+                                <img class="card-image" src="https://placehold.jp/30/888/ffffff/50x50.png?text=R" alt="Author">
+                            </dd>
+                        </dl>
+                    </a>
+                </article>
+            </li>
+            <li class="grid-item">
+                <article class="card">
+                    <a href="" class="card-link">
+                        <span class="card-label">New</span>
+                        <img class="card-image" src="https://placehold.jp/30/eee/ffffff/200x100.png?text=Coming soon" width="10px" height="5px" alt="thumbnail">
+                        <div class="card-info">
+                            <time id="time-text2" class="card-time" datetime="2023-08-09">Time</time>
+                            <h1 id="card-text2" class="card-headline">Title</h1>
+                            <p id="card-descText2" class="card-description">Description</p>
+                        </div>
+                        <dl class="avator">
+                            <dt class="avator-name">sample</dt>
+                            <dd class="avator-image">
+                                <img class="card-image" src="https://placehold.jp/30/888/ffffff/50x50.png?text=R" alt="Author">
+                            </dd>
+                        </dl>
+                    </a>
+                </article>
+            </li>
+            <li class="grid-item">
+                <article class="card">
+                    <a href="" class="card-link">
+                        <span class="card-label">New</span>
+                        <img class="card-image" src="https://placehold.jp/30/eee/ffffff/200x100.png?text=Coming soon" width="200px" height="100px" alt="thumbnail">
+                        <div class="card-info">
+                            <time id="time-text3" class="card-time" datetime="2023-08-09">Time</time>
+                            <h1 id="card-text3" class="card-headline">Title</h1>
+                            <p id="card-descText3" class="card-description">Description</p>
+                        </div>
+                        <dl class="avator">
+                            <dt class="avator-name">sample</dt>
+                            <dd class="avator-image">
+                                <img src="https://placehold.jp/30/888/ffffff/50x50.png?text=R" alt="Author">
+                            </dd>
+                        </dl>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- works -->
+    <aside class="works">
+        <img src="https://placehold.jp/30/bfbfbf/ffffff/150x80.png?text=Coming soon" alt="logo">
+        <img src="https://placehold.jp/30/bfbfbf/ffffff/150x80.png?text=Coming soon" alt="logo">
+        <img src="https://placehold.jp/30/bfbfbf/ffffff/150x80.png?text=Coming soon" alt="logo">
+        <img src="https://placehold.jp/30/bfbfbf/ffffff/150x80.png?text=Coming soon" alt="logo">
+        <img src="https://placehold.jp/30/bfbfbf/ffffff/150x80.png?text=Coming soon" alt="logo">
+    </aside>
+
+    <!-- footer -->
+    <footer class="footer">
+        <figcaption class="footer-info">
+            <div class="footer-logo">
+                <img src="./assets/images/R's Photo-logo.png" width="100px" height="90px" alt="">
+            </div>
+        </figcaption>
+        <hr class="footer-line" />
+        <small class="footer-copy">Copyright ©R's Photo</small>
+        <!-- <a class="x-link" href="https://twitter.com/R_none96728">X</a> -->
+    </footer>
+
+
+
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/textChange.js"></script>
+</body>
+</html>
